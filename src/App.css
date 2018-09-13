@@ -1,0 +1,66 @@
+.App-header {
+  background-color: #524763;
+  padding: 20px;
+  text-align: center;
+}
+
+.App-header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+main {
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.posts-listing {
+  /* list-style: none; */
+  padding: 0;
+  margin: 2rem auto;
+}
+
+.posts-listing li {
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+}
+
+.button {
+  text-decoration: none;
+  background: #524763;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+input {
+  font-size: 1.6rem;
+}
+
+textarea {
+  font-size: 1.2rem;
+  height: 50vh;
+}

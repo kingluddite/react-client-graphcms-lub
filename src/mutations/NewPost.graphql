@@ -1,0 +1,7 @@
+  mutation createPost($title: String!, $body: String!) {
+    createPost(data: { status: PUBLISHED, title: $title, body: $body }) {
+      title
+      body
+      id
+    }
+  }
